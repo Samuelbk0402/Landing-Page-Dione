@@ -1,3 +1,8 @@
+html, body {
+    overflow-x: hidden;  /* Kunci biar web nggak bisa scroll kanan-kiri */
+    width: 100%;
+}
+
 * { 
     margin: 0; 
     padding: 0; 
@@ -82,18 +87,12 @@ h1, h2, h3 {
     margin-bottom: 15px; 
     color: #555; 
 }
+
 .hero-img img { 
-    width: 100% !important;     
-    max-width: 100% !important;  /* Paksa mentok container di HP */
-    height: auto !important;
+    max-width: 100%;     /* Bukan 450px, tapi 100% dari container */
+    height: auto;
     box-shadow: 0 15px 40px rgba(0,0,0,0.15); 
     border-radius: 5px;  
-}
-
-@media (min-width: 768px) {
-    .hero-img img {
-        max-width: 450px !important;  /* Baru gedein di desktop */
-    }
 }
 
 /* TOMBOL BUY NOW / COMPRAR AGORA */
