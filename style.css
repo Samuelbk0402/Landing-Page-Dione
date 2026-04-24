@@ -84,7 +84,7 @@ h1, h2, h3 {
 }
 
 .hero-img img { 
-    max-width: 325px; 
+    max-width: 350px; 
     box-shadow: 0 15px 40px rgba(0,0,0,0.15); 
     border-radius: 5px;  
 }
